@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
-  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -270,20 +269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40371e7330cd24147a2857048444d7ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DelegateLab
---- !u!114 &330585549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 344c173152172d54f8fbd8c819ced9fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TestLearningInputMap
-  input: {fileID: 2109200812}
-  sensitivity: 0.01
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +807,6 @@ GameObject:
   - component: {fileID: 2109200810}
   - component: {fileID: 2109200811}
   - component: {fileID: 2109200812}
-  - component: {fileID: 2109200813}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -857,23 +841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6274218f9ad076f4cbfbd89e1b5d06f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveTester
-  input: {fileID: 2109200813}
+  input: {fileID: 2109200812}
   mover: {fileID: 1047159557}
   TargetA: {fileID: 740502956}
   TargetB: {fileID: 2129198254}
 --- !u!114 &2109200812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109200809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 885ee662fd990034ea20682a46147126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LearningInput
---- !u!114 &2109200813
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
