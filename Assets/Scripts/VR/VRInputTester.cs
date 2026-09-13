@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+public class VRInputTester : MonoBehaviour
+{
+
+    public InputActionProperty testActionValue;   
+    public InputActionProperty testActionButton;
+
+
+    private void Update()
+    {
+        float value = testActionValue.action.ReadValue<float>();
+        Debug.Log("Value: " + value);
+
+        bool button = testActionButton.action.IsPressed();
+        Debug.Log("Button: " + button);
+
+    }
+
+
+}
